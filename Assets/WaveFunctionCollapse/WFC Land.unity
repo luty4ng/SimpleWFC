@@ -3170,62 +3170,6 @@ MonoBehaviour:
   valueX: {fileID: 975490318}
   valueY: {fileID: 465290964}
   valueZ: {fileID: 2100800532}
-  activeColorBlock:
-    m_NormalColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_HighlightedColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_PressedColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_SelectedColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_DisabledColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_ColorMultiplier: 0
-    m_FadeDuration: 0
-  deactiveColorBlock:
-    m_NormalColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_HighlightedColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_PressedColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_SelectedColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_DisabledColor:
-      r: 0
-      g: 0
-      b: 0
-      a: 0
-    m_ColorMultiplier: 0
-    m_FadeDuration: 0
 --- !u!1 &1467041507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,7 +4029,6 @@ MonoBehaviour:
   collapseMode: 1
   isGenerating: 0
   showProcess: 0
-  blockMap: {}
 --- !u!4 &1774562840
 Transform:
   m_ObjectHideFlags: 0
@@ -4098,7 +4041,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1846511442
 GameObject:
@@ -4340,15 +4283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 500cbb39fe57e074b9e1b674b0846e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  center: {x: 0, y: 0, z: 0}
   generator: {fileID: 1774562839}
   rotateSpeed: 50
   moveSpeed: 10
   sensitivity: 10
-  cam: {fileID: 0}
-  horizontal: 0
-  vertical: 0
-  movement: {x: 0, y: 0, z: 0}
 --- !u!1 &1937769054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4926,7 +4864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1779956600917619001, guid: e372c84d4dd79d440a8dfe2052397f87, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5417627194027995952, guid: e372c84d4dd79d440a8dfe2052397f87, type: 3}
       propertyPath: m_Name
@@ -4934,7 +4872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7910664752687789379, guid: e372c84d4dd79d440a8dfe2052397f87, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7910664752687789379, guid: e372c84d4dd79d440a8dfe2052397f87, type: 3}
       propertyPath: m_LocalPosition.x

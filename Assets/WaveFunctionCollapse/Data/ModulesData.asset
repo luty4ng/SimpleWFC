@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ce7ac4cee4a9e7419078ef485991ffa, type: 3}
-  m_Name: 3DTileData
+  m_Name: ModulesData
   m_EditorClassIdentifier: 
   Prototypes: {fileID: 1779956600917619001, guid: e372c84d4dd79d440a8dfe2052397f87, type: 3}
   Modules:
